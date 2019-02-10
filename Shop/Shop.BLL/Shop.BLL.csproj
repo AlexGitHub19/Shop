@@ -4,4 +4,9 @@
     <TargetFramework>netstandard2.0</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Shop.DAL\Shop.DAL.csproj" />
+    <ProjectReference Include="..\Shop.DomainModels\Shop.DomainModels.csproj" />
+  </ItemGroup>
+
 </Project>
